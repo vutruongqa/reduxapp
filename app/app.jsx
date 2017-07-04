@@ -7,9 +7,5 @@ var Main = require('Main');
 //load foundation, nice library for CSS
 require('style!css!sass!applicationStyles');
 
-ReactDOM.render(
-    <p>Redux example</p>,
-    document.getElementById('app')
-);
-
-require('./redux-todo-example');
+//require('./redux-todo-example');
+require('./redux-example');
